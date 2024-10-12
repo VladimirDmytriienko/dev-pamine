@@ -29,6 +29,8 @@ function App() {
           <p>Username: {userData.username}</p>
           <p>First Name: {userData.first_name}</p>
           <p>Last Name: {userData.last_name}</p>
+          <p>id: {userData.id}</p>
+          <p>Language Code: {userData.language_code}</p>
         </div>
       ) : (
         <p>Loading...</p>
